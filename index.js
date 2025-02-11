@@ -140,4 +140,4 @@ function selectKey(x)
 
 document.addEventListener("keydown", function(event){
     selectKey(event.key)
-    })
+})
