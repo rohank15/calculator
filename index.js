@@ -1,6 +1,14 @@
 function updateDisplay(value)
 {
-    document.getElementById("display").value += value;
+    if(document.getElementById("display").value === "Infinity")
+    {
+        display.value = "";
+        display.value = value;
+    }
+    else
+    {
+        document.getElementById("display").value += value;    
+    }
 }
 
 function clearDisplay()
@@ -32,5 +40,4 @@ function calculate()
     {
         display.value = ""
     }
-   
 }
