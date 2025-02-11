@@ -123,7 +123,7 @@ function selectKey(x)
             break
     
         case 'Delete':
-            remSingleDigit()
+            clearDisplay()
             break    
 
         case '/':
